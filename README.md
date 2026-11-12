@@ -137,3 +137,13 @@ On first run the pose model (MediaPipe Pose Landmarker) and face model (YuNet) a
 - Left and right refer to the person's own left and right. When someone faces away, the model occasionally swaps them, so for important areas select both sides.
 - No detector is 100% reliable. Watch the whole output before using it.
 - Processing leaves a `.pose.json` (cached skeleton coordinates) and a `.marks.json` (manual marks) next to each video. Delete them when no longer needed.
+
+---
+
+## 许可 / License
+
+[MIT](LICENSE)。本工具按原样提供,不保证能遮住所有需要遮挡的内容,使用者需自行检查输出结果。
+Provided as is, with no guarantee that everything that should be masked will be. Always check the output yourself.
+
+模型在运行时从官方地址下载,不包含在本仓库中:MediaPipe Pose Landmarker(Apache 2.0)、YuNet(MIT)。
+Models are downloaded at runtime and are not included in this repository: MediaPipe Pose Landmarker (Apache 2.0), YuNet (MIT).
