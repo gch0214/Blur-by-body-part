@@ -1,0 +1,18 @@
+# 模型文件(首次运行自动下载)
+*.task
+*.onnx
+# 每个视频的检测缓存和手动标记
+*.pose.json
+*.marks.json
+# 界面设置
+body_blur_settings.json
+# 视频
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.m4v
+*.wmv
+*.flv
+*.webm
+__pycache__/
