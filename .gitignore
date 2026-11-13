@@ -4,6 +4,7 @@
 # 每个视频的检测缓存和手动标记
 *.pose.json
 *.marks.json
+*.people.json
 # 界面设置
 body_blur_settings.json
 # 视频
